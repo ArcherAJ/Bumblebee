@@ -1,0 +1,529 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.dark-header {
+    background-color: #333; /* Dark header background color */
+    padding: 15px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #ffcc00; /* Highlight color for the brand name */
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Add a smooth color transition effect */
+}
+
+.nav-menu a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #ffcc00; /* Highlight color for the button */
+    color: #333; /* Button text color */
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease; /* Add a smooth background color transition effect */
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid #ffcc00;
+    color: #ffcc00;
+}
+
+.btn:hover {
+    background-color: #fff; /* Change button background color on hover */
+    color: #333; /* Change button text color on hover */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.dark-hero {
+    background-image: url('hero-background.jpg'); /* Replace with the path to your hero background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    padding: 40px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #ffcc00; /* Highlight color for the button */
+    color: #333; /* Button text color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth background color transition effect */
+}
+
+.btn:hover {
+    background-color: #fff; /* Change button background color on hover */
+    color: #333; /* Change button text color on hover */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.dark-feature {
+    background-color: #333; /* Dark feature section background color */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-item {
+    max-width: 300px;
+}
+
+.feature-item img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 160px;
+}
+
+.feature-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.dark-about {
+    background-color: #333; /* Dark about section background color */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-content {
+    max-width: 500px;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.about-content .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #ffcc00; /* Highlight color for the button */
+    color: #333; /* Button text color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth background color transition effect */
+}
+
+.about-content .btn:hover {
+    background-color: #fff; /* Change button background color on hover */
+    color: #333; /* Change button text color on hover */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.dark-shop-by-category {
+    background-color: #333; /* Dark shop by category section background color */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.shop-by-category-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.shop-by-category-container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.category-item {
+    max-width: 300px;
+    margin-bottom: 40px;
+}
+
+.category-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.category-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.category-item .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #ffcc00; /* Highlight color for the button */
+    color: #333; /* Button text color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth background color transition effect */
+}
+
+.category-item .btn:hover {
+    background-color: #fff; /* Change button background color on hover */
+    color: #333; /* Change button text color on hover */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.dark-customer-reviews {
+    background-color: #333; /* Dark customer reviews section background color */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.customer-reviews-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.customer-reviews-container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.review-item {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.review-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.review-meta img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-info {
+    text-align: left;
+}
+
+.user-info h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.user-info span {
+    font-size: 14px;
+    color: #999;
+}
+
+.review-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.dark-latest-trends {
+    background-color: #333; /* Dark latest trends section background color */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.latest-trends-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.latest-trends-container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.trend-item {
+    max-width: 300px;
+    margin-bottom: 40px;
+}
+
+.trend-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.trend-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.trend-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.dark-newsletter {
+    background-color: #333; /* Dark newsletter section background color */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.newsletter-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.dark-newsletter h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.dark-newsletter p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Highlight color for the button */
+    color: #333; /* Button text color */
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth background color transition effect */
+}
+
+.newsletter-form button:hover {
+    background-color: #fff; /* Change button background color on hover */
+    color: #333; /* Change button text color on hover */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.dark-footer {
+    background-color: #333; /* Dark footer background color */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #ffcc00; /* Highlight color for the brand name */
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Add a smooth color transition effect */
+}
+
+.footer-links a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+.footer-social {
+    display: flex;
+}
+
+.social-icon {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease; /* Add a smooth transformation effect */
+}
+
+.social-icon:hover img {
+    transform: scale(1.2); /* Increase the size on hover */
+}
+
